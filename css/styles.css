@@ -58,7 +58,9 @@ font-family: 'Montserrat', sans-serif; */
     padding: 5% 15%;
 }
 
-
+.service_heading {
+    padding-bottom: 2%;     
+}
 
 .boiler_card {
     padding: 1% 1%;
