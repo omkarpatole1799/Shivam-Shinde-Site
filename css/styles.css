@@ -101,8 +101,6 @@ font-family: 'Montserrat', sans-serif; */
     padding: 1% 1%;
 }
 
-
-
 .computer_card {
     padding: 1% 1%;
 }
@@ -115,31 +113,28 @@ h5 {
     font-weight: bold;
 }
 
-
 /* carousel section */
 .photo-gallery {
+    justify-content: center;
+    text-align: center;
     background-color: #354259;
 }
+
 .gallery-heading {
+    color: white;
     text-align: center;
-    font-family: font-family: 'Montserrat', sans-serif;;
-    padding: 2rem 2rem 0rem 2rem; 
+    font-family:'Montserrat', sans-serif;
+    padding: 2rem 2rem 0rem; 
     font-weight: bold; 
 }
 
-@media screen and (max-width: 500px){
-    .carousel {
-        margin: 3rem 1rem;
-    }
-    .carousel-item {
-        height: 10vh;
-    }
+.carousel-inner {
+    padding: 1rem 2rem;
 }
 
-.carousel {
-    margin: 3rem 10rem;
-}
-
-.carousel-item {
-    height: 80vh;
+.carousel-caption {
+    font-size: 1rem;
+    position: relative;
+    left: auto;
+    right: auto;
 }
