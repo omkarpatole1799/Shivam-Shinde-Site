@@ -123,8 +123,6 @@ h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 /* Media query here */
 
 /* home screen media query */
@@ -135,7 +133,7 @@ h5 {
     }
 
     .home_page_content {
-        padding: 10rem 0rem;
+        padding: 10rem 1rem;
         text-align: center;
     }
 
@@ -154,5 +152,14 @@ h5 {
 
     #nav {
         padding: 5rem 2rem 0rem 2rem;
+    }
+
+    .service_heading {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .carousel-caption {
+        padding-top: 3rem;
     }
 }
