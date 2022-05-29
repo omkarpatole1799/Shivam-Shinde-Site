@@ -20,15 +20,15 @@ font-family: 'Montserrat', sans-serif; */
 
 #home {
     color: white;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
-
+    background-image: url('../bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
 }
 
-#home::before {
+/* #home::before {
     content: "";
     position: absolute;
     background: url('../bg1.jpg') no-repeat center center/cover;
@@ -38,7 +38,7 @@ font-family: 'Montserrat', sans-serif; */
     left: 0;
     z-index: -1;
     opacity: 1;
-}
+} */
 
 .home_page_content {
     padding: 14% 8%;
@@ -52,11 +52,13 @@ font-family: 'Montserrat', sans-serif; */
 /* services section css */
 
 #services {
-    /* background-color: rgb(126, 126, 229); */
     padding-top: 2%;
     padding-bottom: 2%;
     padding: 5% 15%;
+    color: rgb(27, 24, 24);
+    background-color: #CDC2AE;
 }
+
 
 .service_heading {
     padding-bottom: 2%;     
@@ -77,4 +79,25 @@ font-family: 'Montserrat', sans-serif; */
 }
 .service_heading {
     text-align: center;
+}
+
+
+/* carousel section */
+
+#carouseel {
+    background-color: #354259; 
+    height: fit-content;
+    /* margin: 5% 15%; */
+    padding: 4% 20%;
+}
+
+#carouseel h2 {
+    text-align: center;
+    font-family: 'Cardo', serif;
+    color: white;
+}
+
+.carousel-inner img {
+    
+    height: 70vh;
 }
