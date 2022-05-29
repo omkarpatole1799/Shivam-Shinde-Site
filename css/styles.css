@@ -28,24 +28,51 @@ font-family: 'Montserrat', sans-serif; */
     /* background-attachment: fixed; */
 }
 
-/* #home::before {
-    content: "";
-    position: absolute;
-    background: url('../bg1.jpg') no-repeat center center/cover;
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    opacity: 1;
-} */
+/* home screen media query */
+@media screen and (max-width: 500px ) {
+
+    #home {
+        color: rgb(255, 255, 255);
+    }
+
+    .home_page_content {
+        
+    }
+
+    .home-heading {
+       font-size: 1.8rem;
+       font-weight: bold;
+    }
+
+    .home-sub-heading {
+        font-size: 1.5rem;
+    }
+
+    .home-para {
+        font-size: 1rem;
+    }
+}
 
 .home_page_content {
-    padding: 14% 8%;
+    padding: 10em 5em 5em 5em;
+    text-align: center;
+    justify-content: center;
+}
+
+.home-heading {
+    font-weight: bold;
+}
+
+.home-sub-heading {
+    
+}
+
+.home-para {
+
 }
 
 #nav{
-    padding: 0% 8%;
+    padding: 5rem 2rem 0rem 2rem;
 }
 
 
@@ -61,7 +88,9 @@ font-family: 'Montserrat', sans-serif; */
 
 
 .service_heading {
-    padding-bottom: 2%;     
+    font-family: font-family: 'Montserrat', sans-serif;;
+    padding: 0rem 2rem 2rem 0rem; 
+    font-weight: bold;    
 }
 
 .boiler_card {
@@ -79,25 +108,19 @@ font-family: 'Montserrat', sans-serif; */
 }
 .service_heading {
     text-align: center;
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
 }
 
 
 /* carousel section */
-
-#carouseel {
-    background-color: #354259; 
-    height: fit-content;
-    /* margin: 5% 15%; */
-    padding: 4% 20%;
+.carousel {
+    margin: 5rem 5rem;
 }
 
-#carouseel h2 {
-    text-align: center;
-    font-family: 'Cardo', serif;
-    color: white;
-}
-
-.carousel-inner img {
-    
-    height: 70vh;
+.carousel-item {
+    height: 80vh;
 }
