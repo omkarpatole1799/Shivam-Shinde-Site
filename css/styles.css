@@ -8,13 +8,11 @@ font-family: 'Montserrat', sans-serif; */
     padding: 0px;
 }
 
-
 /* nav section */
 .logo {
     font-size: 50px;
     font-family: 'Cardo', serif;
 }
-
 
 /* Home section */
 
@@ -27,8 +25,6 @@ font-family: 'Montserrat', sans-serif; */
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-
 
 .home_page_content {
     padding: 10em 5em 5em 5em;
@@ -54,7 +50,6 @@ font-family: 'Montserrat', sans-serif; */
 
 
 /* services section css */
-
 #services {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -63,10 +58,9 @@ font-family: 'Montserrat', sans-serif; */
     background-color: #CDC2AE;
 }
 
-
 .service_heading {
     text-align: center;
-    font-family: font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;;
     padding: 0rem 2rem 2rem 0rem; 
     font-weight: bold;    
 }
@@ -83,45 +77,31 @@ font-family: 'Montserrat', sans-serif; */
     padding: 1% 1%;
 }
 
-h5 {
-    font-weight: bold;
-}
 
-/* carousel section */
+/*  owl-carousel section */
 .photo-gallery {
-    justify-content: center;
-    text-align: center;
-    
+    padding: 0rem 4rem 4rem;
     background-color: #354259;
 }
 
 .gallery-heading {
     color: white;
+    font-size: 2rem;
     text-align: center;
     font-family:'Montserrat', sans-serif;
     padding: 2rem 2rem 0rem; 
     font-weight: bold; 
 }
 
-.carousel-inner {
-    padding: 1rem 2rem;
-}
-
-.carousel-caption {
-    font-size: 1rem;
-    position: relative;
-    left: auto;
-    right: auto;
-}
-
 /* footer section */
 .footer-heading {
-
     font-weight: bold;
 }
+
 #footer {
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /* Media query here */
 
@@ -157,9 +137,5 @@ h5 {
     .service_heading {
         text-align: center;
         padding: 1rem;
-    }
-
-    .carousel-caption {
-        padding-top: 3rem;
     }
 }
