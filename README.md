@@ -1,10 +1,11 @@
 # Shivam-Shinde-Site
 
-![image](https://user-images.githubusercontent.com/56589966/172013999-774d0754-8c70-41b5-a728-b7106aaee0af.png)
+![image](https://user-images.githubusercontent.com/56589966/172014175-9041e7e2-ac8f-4408-90a3-8c1df778cf95.png)
 
-![image](https://user-images.githubusercontent.com/56589966/172014012-b3b959e2-dfe6-495f-a974-bf5836a4375a.png)
+![image](https://user-images.githubusercontent.com/56589966/172014195-392b9073-b3a4-43f3-bff8-bdedd92020bd.png)
 
-![image](https://user-images.githubusercontent.com/56589966/172014021-f03a39b8-c7f1-429e-bd55-fa399b031516.png)
+![image](https://user-images.githubusercontent.com/56589966/172014226-348234e3-a398-4428-837d-5294fc7bd4bc.png)
+
 
 ![image](https://user-images.githubusercontent.com/56589966/172014047-3810d8c2-7026-46c1-9490-3615a413bc97.png)
 
